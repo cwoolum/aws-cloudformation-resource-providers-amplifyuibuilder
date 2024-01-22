@@ -37,13 +37,13 @@ Properties:
 
 #### Name
 
-_Required_: Yes
+_Required_: No
 
 _Type_: String
 
-_Minimum_: <code>1</code>
+_Minimum Length_: <code>1</code>
 
-_Maximum_: <code>255</code>
+_Maximum Length_: <code>255</code>
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
@@ -61,11 +61,11 @@ _Required_: No
 
 _Type_: <a href="tags.md">Tags</a>
 
-_Update requires_: [Replacement](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-replacement)
+_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 #### Values
 
-_Required_: Yes
+_Required_: No
 
 _Type_: List of <a href="themevalues.md">ThemeValues</a>
 
